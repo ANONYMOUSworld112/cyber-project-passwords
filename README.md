@@ -129,6 +129,32 @@ If you forget both the password and the hint answer, the data is
 permanently inaccessible. There is no recovery. Use `csp reset` to
 wipe everything and start over.
 
+## Screenshots
+
+### Login page
+
+![Login page](assets/images/login-page.png)
+
+After creating the account, the login page will look like this.
+
+### Dashboard
+
+![Dashboard](assets/images/dashboard.png)
+
+After login, the dashboard is visible with options to create and manage vault entries, incidents, FIM baselines, and more.
+
+### Vault view
+
+![Vault](assets/images/vault.png)
+
+This screen shows the vault contents and everything stored before the first login.
+
+### Execute
+
+![Execute](assets/images/execute.png)
+
+This shows how to execute the application.
+
 ## Tests
 
 ```bash
