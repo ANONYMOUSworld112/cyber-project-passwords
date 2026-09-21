@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CYBERBLACK-PASSWORDS (csp) // HUD Terminal</title>
+<meta name="application-name" content="csp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="cyber-terminal">
+<div class="scanline-overlay"></div>
+<nav id="nav" class="hidden">
+  <div class="nav-inner">
+    <a href="#/" class="nav-brand">
+      <span class="brand-bracket">[</span><span class="brand-core">CYBERBLACK</span><span class="brand-dim">::OPS</span><span class="brand-bracket">]</span>
+    </a>
+    <div class="nav-links">
+      <a href="#/" class="nav-link"><span class="cmd-prompt">&gt;</span>Dashboard</a>
+      <a href="#/vault" class="nav-link"><span class="cmd-prompt">&gt;</span>Vault</a>
+      <a href="#/incidents" class="nav-link"><span class="cmd-prompt">&gt;</span>Incidents</a>
+      <a href="#/fim" class="nav-link"><span class="cmd-prompt">&gt;</span>FIM</a>
+      <a href="#/hashdb" class="nav-link"><span class="cmd-prompt">&gt;</span>HashDB</a>
+      <a href="#/logs" class="nav-link"><span class="cmd-prompt">&gt;</span>Logs</a>
+      <a href="#/settings" class="nav-link"><span class="cmd-prompt">&gt;</span>Settings</a>
+    </div>
+    <div class="nav-telemetry">
+      <span class="telemetry-pill"><span class="pulse-dot"></span>OFFLINE_ENCRYPTED</span>
+      <button class="btn btn-sm btn-terminal" id="logout-btn">LOCK_SESSION</button>
+    </div>
+  </div>
+</nav>
+<main id="app"></main>
+
+<script src="/static/js/app.js"></script>
+<script src="/static/js/pages/setup.js"></script>
+<script src="/static/js/pages/login.js"></script>
+<script src="/static/js/pages/dashboard.js"></script>
+<script src="/static/js/pages/vault.js"></script>
+<script src="/static/js/pages/incidents.js"></script>
+<script src="/static/js/pages/fim.js"></script>
+<script src="/static/js/pages/hashdb.js"></script>
+<script src="/static/js/pages/logs.js"></script>
+<script src="/static/js/pages/settings.js"></script>
+<script src="/static/js/pages/recovery.js"></script>
+</body>
+</html>
